@@ -30,7 +30,9 @@ This is a python service which will monitor the subreddit of your choosing and t
    2. python-twitter
    3. simplejson
    4. arrow
-      (ex - pip3 install praw python-twitter simplejson arrow)
+
+   (ex - pip3 install praw python-twitter simplejson arrow)
+   
 2. Clone the git repository
 3. Set up sql with the included script  
 
