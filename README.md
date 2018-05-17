@@ -26,11 +26,11 @@ This is a python service which will monitor the subreddit of your choosing and t
 ### Installing
 
 1. Install all python dependencies:
-..1. praw
-..2. python-twitter
-..3. simplejson
-..4. arrow
-   (ex - pip3 install praw python-twitter simplejson arrow)
+  1. praw
+  2. python-twitter
+  3. simplejson
+  4. arrow
+     (ex - pip3 install praw python-twitter simplejson arrow)
 2. Clone the git repository
 3. Set up sql with the included script  
 
@@ -45,6 +45,7 @@ This is a python service which will monitor the subreddit of your choosing and t
 ## Deployment
 
 1. Set up a scheduled task to run the service at your desired interval
+
    cron ex: */5 * * * * /path/to/your/python3 /path/to/your/chirping-snoos.py )
 
 ## Built With
