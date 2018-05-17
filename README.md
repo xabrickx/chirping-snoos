@@ -32,7 +32,7 @@ This is a python service which will monitor the subreddit of your choosing and t
    4. arrow
 
    (ex - pip3 install praw python-twitter simplejson arrow)
-   
+
 2. Clone the git repository
 3. Set up sql with the included script  
 
@@ -65,6 +65,6 @@ This is a python service which will monitor the subreddit of your choosing and t
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-#Comments
+# Comments
 
 Praw is arguably  overkill to  obtain a json payload from /new, but most people who manage Reddits API with python seem to use it
