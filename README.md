@@ -14,10 +14,12 @@ This is a python service which will monitor the subreddit of your choosing and t
 * sqlite3
 * Task scheduler of your choice
 * A reddit account with API credentials
-..* Read more at https://www.reddit.com/wiki/api
-* A twitter account with API credentials for your bot
-..* Read more at https://apps.twitter.com/
+ 
+ ...Read more at https://www.reddit.com/wiki/api
 
+* A twitter account with API credentials for your bot
+
+ ...Read more at https://apps.twitter.com/
 
 
 ### Installing
