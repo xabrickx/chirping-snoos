@@ -14,12 +14,13 @@ This is a python service which will monitor the subreddit of your choosing and t
 * sqlite3
 * Task scheduler of your choice
 * A reddit account with API credentials
- 
- ...Read more at https://www.reddit.com/wiki/api
+
+ ... Read more at https://www.reddit.com/wiki/api
 
 * A twitter account with API credentials for your bot
 
- ...Read more at https://apps.twitter.com/
+ ... Read more at https://apps.twitter.com/
+
 
 
 ### Installing
@@ -31,11 +32,14 @@ This is a python service which will monitor the subreddit of your choosing and t
 ..4. arrow
  (ex - pip3 install praw python-twitter simplejson arrow)
 2. Clone the git repository
-3. Set up sql with the included script
-..* ex: sqlite3 -init ./sql/chirping-snoos.sql /path/to/your/database.db
+3. Set up sql with the included script  
+
+ ... ex: sqlite3 -init ./sql/chirping-snoos.sql /path/to/your/database.db  
+
 4. Configure the environment variables via ./common/env (see env.example for a template)
-5. Configure the application via ./twitterbot/twitterbot_config.py
-..* Don't forget the sqlite file you created above
+5. Configure the application via ./twitterbot/twitterbot_config.py  
+
+ ... Don't forget the sqlite file you created above  
 
 
 ## Deployment
